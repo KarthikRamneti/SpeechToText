@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendInput(View view) {
-        String recipientList = "karthikramneti@gmail.com,saiashokvedala549@gmail.com";
+        String recipientList = "xxxxxxxx@gmail.com";
         String[] recipient = recipientList.split(",");
         String subject = "Voice Inputs";
         String message = txvResult.getText().toString();
